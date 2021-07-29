@@ -32,6 +32,7 @@ function heardWord(error, results) {
 function keyPressed() {
   if (key === " ") {
     player.jump();
+    console.log("up");
   }
 }
 // Runs 60 times per second
